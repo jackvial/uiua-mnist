@@ -28,7 +28,7 @@ E ← 2.71828182
 ReLU ← ↥ 0
 SoftMax ← ÷ /+. ⁿ ∶ E
 
-Image ← ↯ 28_28 ↙ 1 ⍉ ⍉ &imd &frab "data/img_7635.jpg"
+Image ← ↯ 28_28 ↙ 1 ⍉ ⍉ &imd &frab "data/img_98.jpg"
 
 &ims Image
 
