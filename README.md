@@ -1,2 +1,3 @@
-# uiua-mnist
-Neural Network Inference using Uiua!
+Uiua Neural Network Inference on MNIST
+![demo 7](data/demo-7.png)
+
