@@ -19,13 +19,12 @@ DBV ← use "DBV" W
 D ← ↯ 10_64 DV 1
 DB ← DBV 1
 
+Image ← ↯ 28_28 ↙ 1 ⍉ ⍉ &imd &frab "data/img_7635.jpg"
+&ims Image
+
 E ← 2.71828182
 ReLU ← ↥ 0
 SoftMax ← ÷ /+. ⁿ ∶ E
-
-Image ← ↯ 28_28 ↙ 1 ⍉ ⍉ &imd &frab "data/img_7635.jpg"
-
-&ims Image
 
 X ← ReLU + AB /+× ♭ Image ⍉ A
 X ← ReLU + BB /+× X ⍉ B
