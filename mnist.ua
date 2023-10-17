@@ -29,5 +29,4 @@ SoftMax ← ÷ /+. ⁿ ∶ E
 X ← ReLU + AB /+× ♭ Image ⍉ A
 X ← ReLU + BB /+× X ⍉ B
 X ← ReLU + CB /+× X ⍉ C
-X ← ReLU + DB /+× X ⍉ D
-↙ 1 ⍖ SoftMax X
+↙ 1 ⍖ SoftMax + DB /+× X ⍉ D
